@@ -1,11 +1,14 @@
 package com.knqiufan.shop.user.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.knqiufan.shop.bean.User;
+
 /**
- * 类描述
+ * UserMapper
  *
  * @author 黄语秋
  * @version 1.0.0
  * @date 2023/2/24 0:54
  */
-public interface UserMapper {
+public interface UserMapper extends BaseMapper<User> {
 }

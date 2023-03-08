@@ -37,6 +37,6 @@ public class ProductController {
                                        @PathVariable("count") Integer count) {
         log.info("update product stock by pid: {}, buy count: {}", pid, count);
         int updateCount = productService.deductionProductStockById(pid, count);
-        return new Result<Integer>(HttpCode.SUCCESS, "success", updateCount);
+        return new Result<>(HttpCode.SUCCESS, "success", updateCount);
     }
 }

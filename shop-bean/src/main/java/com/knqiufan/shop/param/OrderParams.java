@@ -12,10 +12,19 @@ import lombok.Data;
 @Data
 public class OrderParams {
 
+    /**
+     * 商品id
+     */
     private Long productId;
 
+    /**
+     * 用户id
+     */
     private Long userId;
 
+    /**
+     * 购买商品的数量
+     */
     private Integer count;
 
     public boolean isEmpty() {

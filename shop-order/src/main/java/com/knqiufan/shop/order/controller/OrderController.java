@@ -35,4 +35,10 @@ public class OrderController {
         log.info("测试接口...");
         return "sentinel";
     }
+
+    @GetMapping(value = "/test_sentinel2")
+    public String test2() {
+        log.info("测试接口2...");
+        return "sentinel2";
+    }
 }

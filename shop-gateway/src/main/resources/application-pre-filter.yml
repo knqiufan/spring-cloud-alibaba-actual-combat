@@ -1,0 +1,46 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: server-gateway
+  cloud:
+    gateway:
+      globalcors: # 解决跨域问题
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowCredentials: true
+            allowedHeaders: "*"
+#      discovery:
+#        locator:
+#          enabled: true
+#          route-id-prefix: gateway-
+      routes:
+        - id: user-gateway
+          uri: http://localhost:8060
+          order: 1
+          predicates:
+            - Path=/server-user/**
+#            - RemoteAddr=192.168.0.1/24
+#            - Method=GET
+#            - Name=knqiufan
+          filters:
+            - StripPrefix=1
+            - Grayscale=true
+#            - AddRequestHeader=IP,localhost
+#            - AddRequestParameter=name,knqiufan
+#            - SetStatus=1001
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+
+#    sentinel:
+#      transport:
+#        port: 7777
+#        dashboard: 127.0.0.1:8888
+#      web-context-unify: false
+#      eager: true
+
+#  main:
+#    allow-bean-definition-overriding: true

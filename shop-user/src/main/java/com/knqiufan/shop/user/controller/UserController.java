@@ -5,8 +5,6 @@ import com.knqiufan.shop.bean.User;
 import com.knqiufan.shop.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -42,5 +40,21 @@ public class UserController {
         String name = req.getParameter("name");
         log.info("ip:{}, name:{}", ip, name);
         return "apiFilter";
+    }
+
+    @GetMapping("/async/api")
+    public String asyncApi() {
+        log.info("开始执行异步任务...");
+        userService.asyncMethod();
+        log.info("结束异步任务...");
+        return "asyncApi";
+    }
+
+    @GetMapping("sleuth/filter/api")
+    public String sleuthFilter(HttpServletRequest request) {
+        Object traceIdObj = request.getAttribute("traceId");
+        String traceId = traceIdObj == null ? "" : traceIdObj.toString();
+        log.info("获取到的traceId为：{}", traceId);
+        return "sleuthFilter";
     }
 }

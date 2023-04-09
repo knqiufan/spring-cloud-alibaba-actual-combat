@@ -17,4 +17,9 @@ public interface UserService {
      * @return 用户实体
      */
     User getUserById(long id);
+
+    /**
+     * 异步测试方法
+     */
+    void asyncMethod();
 }

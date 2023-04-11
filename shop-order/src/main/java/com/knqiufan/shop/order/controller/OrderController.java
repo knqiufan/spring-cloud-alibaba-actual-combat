@@ -21,12 +21,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     // @Qualifier("orderServiceImpl2")
-    final OrderService orderServiceImpl3;
+    final OrderService orderServiceImpl4;
 
     @GetMapping(value = "/submit_order")
     public String submitOrder(OrderParams orderParams) {
         log.info("提交订单时传递的参数：{}", JSONObject.toJSONString(orderParams));
-        orderServiceImpl3.saveOrder(orderParams);
+        orderServiceImpl4.saveOrder(orderParams);
         return "success";
     }
 

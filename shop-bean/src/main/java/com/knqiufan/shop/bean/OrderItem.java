@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * 订单明细
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 9:25
  */

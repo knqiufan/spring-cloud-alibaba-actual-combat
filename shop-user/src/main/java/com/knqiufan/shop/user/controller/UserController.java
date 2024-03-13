@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * User接口类
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/2/24 0:54
  */

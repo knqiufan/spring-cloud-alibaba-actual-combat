@@ -3,7 +3,7 @@ package com.knqiufan.shop.order.service;
 /**
  * 链路流控模式测试
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/23 2:02
  */

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * UserService 接口容错类
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/17 0:20
  */

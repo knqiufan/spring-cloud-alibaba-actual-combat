@@ -3,7 +3,7 @@ package com.knqiufan.shop.utils.constants;
 /**
  * http状态码
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 1:29
  */

@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * 雪花算法工厂
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 0:07
  */

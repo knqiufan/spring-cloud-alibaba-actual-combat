@@ -8,7 +8,7 @@ import org.apache.rocketmq.common.message.Message;
 /**
  * 消息队列生产者
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/4/12 0:00
  */

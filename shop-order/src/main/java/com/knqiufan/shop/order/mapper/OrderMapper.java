@@ -6,7 +6,7 @@ import com.knqiufan.shop.bean.Order;
 /**
  * 订单Mapper
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 9:13
  */

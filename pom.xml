@@ -21,6 +21,7 @@
     <module>shop-order</module>
     <module>shop-utils</module>
     <module>shop-bean</module>
+    <module>shop-gateway</module>
   </modules>
 
   <properties>

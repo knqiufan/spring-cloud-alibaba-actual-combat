@@ -28,7 +28,7 @@ import java.util.*;
 /**
  * 网关配置类 (基于Sentinel限流)
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/27 1:51
  */

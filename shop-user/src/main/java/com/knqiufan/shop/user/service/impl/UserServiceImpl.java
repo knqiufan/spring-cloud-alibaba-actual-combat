@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 /**
  * User接口实现
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/2/24 0:54
  */

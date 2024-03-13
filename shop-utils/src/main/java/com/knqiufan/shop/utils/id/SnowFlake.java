@@ -3,7 +3,7 @@ package com.knqiufan.shop.utils.id;
 /**
  * 雪花算法生成分布式序列号
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 0:08
  */

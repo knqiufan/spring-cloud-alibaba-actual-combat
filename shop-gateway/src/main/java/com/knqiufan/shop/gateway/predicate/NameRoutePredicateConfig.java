@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 接受配置文件参数
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/4/2 15:58
  */

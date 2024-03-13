@@ -5,7 +5,7 @@ import com.knqiufan.shop.utils.md5.MD5Hash;
 /**
  * 密码生成工具
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/4 0:15
  */

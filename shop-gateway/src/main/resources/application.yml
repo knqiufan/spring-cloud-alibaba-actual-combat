@@ -26,3 +26,12 @@ spring:
         dashboard: 127.0.0.1:8888
       web-context-unify: false
       eager: true
+  sleuth:
+    sampler:
+      # sleuth采样的百分比
+      probability: 1.0
+  zipkin:
+    # zipkin的服务端地址
+    base-url: http://127.0.0.1:9411
+    # 将服务治理 当成一个url 而不是按服务名处理
+    discovery-client-enabled: false

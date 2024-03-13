@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 处理Sentinel系统规则，返回自定义异常 捕获sentinel全局异常
  *
- * @author 黄语秋
+ * @author knqiufan
  * @version 1.0.0
  * @date 2023/3/23 2:42
  */

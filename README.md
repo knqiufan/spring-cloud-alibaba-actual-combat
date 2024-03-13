@@ -1,6 +1,8 @@
 # spring-cloud-alibaba-actual-combat
 Spring Cloud Alibaba 简单实战项目
 
+![image](main.jpg)
+
 ## 项目使用的软件版本
 * JDK: 11
 * MySQL: 8.0.19
